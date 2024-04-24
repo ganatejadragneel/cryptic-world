@@ -1,0 +1,16 @@
+from cryptography.fernet import Fernet
+import base64
+
+# Define the key
+key_str = "<>"  #Who am I ?
+key_bytes = key_str.encode()
+while len(key_bytes) < 32:
+    key_bytes += b'\x00'
+url_safe_key = base64.urlsafe_b64encode(key_bytes)
+
+cipher = Fernet(url_safe_key)
+ciphertext = b'gAAAAABmJ-VG1hkdvv7XISzpc4tTT7_E1QoXxYTdy4X7shtfLTM9USLe3Jc3_Qk-e1UP1asarxk4XESa7DLq2Sd6LN2vyG6vqQ=='
+
+decrypted_plaintext = cipher.decrypt(ciphertext)
+
+print("You can use me! But where?", decrypted_plaintext.decode())
