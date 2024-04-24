@@ -3,10 +3,9 @@ name: Cryptic World
 docker_image: localhost:56156/Cryptic World
 
 description: |
-  author: [Your name](Link-to-Your-Profile)
+  author: [Gana Teja Akula](https://github.com/ganatejadragneel)
 
-  Example Instruction:
-  This challenge is a mixture of Web snooping, secret phrases, and basic cryptography. Don't overthink it.
+  This challenge is a mixture of Web snooping, secret phrases, and basic cryptography. Don't overthink it!
 
   Step 1:
     Forward the traffic back from the remote server
@@ -25,10 +24,10 @@ flag: CTF_SDaT{Luffy_Zoro}
 
 hints:
   - {
-    content: "The content of the website includes not only html but also js script, headers, cookie, etc.",
+    content: "The content of the website includes not only html but css which is blocking you. Every element has a name.",
     cost: 20
   }
   - {
-    content: "Try an online translating/deciphering tool for the Pig Latin riddle and the Caesar and Vigenère Ciphers.",
+    content: "Remember every single thing that u see in level 1 incase u don't understand what to do",
     cost: 40
   }

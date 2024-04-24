@@ -1,0 +1,21 @@
+Final Flag: CTF_SDaT{Luffy_Zoro}
+
+Level 1:
+Step 1: Inspect element and go to the button element. Remove class="element" part from this tag.
+Step 2: Click on the button on the UI and a new url will pop up.
+Step 3: Open the new link.
+
+
+Level 2:
+Step 1: Convert the morse code to text. We will now get a shorturl.at as the result.
+Step 2: Open the right image in new tab and copy the image name. 
+Step 3: Put the image name beside the link as: shorturl.at/<image_name> 
+Step 4: Open the link and download the zip file.
+
+Level 3:
+Step 1: unzip the file. change the file type from dll to py.
+Step 2: Change the "key" field in the python file to "Mario". 
+Step 3: Run the python file as, "python file.py"
+Step 4: You will get a random assortment of letters, which u need to put in the pastebin url as pastebin/<letters>
+Step 5: You get the flag in this which u can submit as the final answer.
+
