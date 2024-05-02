@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^level297y94u3irhesdkf$ /level2/index.html [L]
+RewriteRule ^yourfinaldestination!!!$ /flag.php [L]

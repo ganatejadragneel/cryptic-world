@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    $data = 'level2-ctf.netlify.app';
+    $data = '/level297y94u3irhesdkf';
     echo json_encode($data);
 }
 ?>
