@@ -17,5 +17,5 @@ Step 1: unzip the file. change the file type from dll to py.
 Step 2: Change the "key" field in the python file to "Mario". 
 Step 3: Run the python file as, "python file.py"
 Step 4: You will get a random assortment of letters, which u need to put in the pastebin url as pastebin/<letters>
-Step 5: You get the flag in this which u can submit as the final answer.
+Step 5: You get the new route which when u use in your browser will give you the flag!
 

@@ -30,5 +30,5 @@ In this, we get a zip file to download.
 After we extract, we get a dll file. 
 When we try to open it in notepad, we notice that it is a python code, and so we run it as a python file.
 In the python file, there's a key field which needs to be changed which says, "Who am I?", we know from part 1 that we are Mario.
-After we change it to mario, we get a final random word which needs to be put as a pastebin url(gave this hint in part 1), after which a pastebin link will open and we get our flag.
-
+After we change it to mario, we get a final random word which needs to be put as a pastebin url(gave this hint in part 1), after which a pastebin link will open.
+This will give a new route which will be "/<route>" which implies that it is a route and when we use it in the browser, the new flag will come up.
